@@ -26,6 +26,10 @@ body {
   font-family: 'Manrope', sans-serif;
 }
 
+@theme {
+  --breakpoint-xs: 500px;
+}
+
 @layer utilities {
   .container {
     @apply w-full max-w-[70.9rem] mx-auto mt-0 mb-0 py-0 sm:px-7 px-5;
