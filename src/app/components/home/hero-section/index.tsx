@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Button } from "../../ui/button";
 
 const HeroSection = () => {
   const socialIcons = [
@@ -31,14 +32,21 @@ const HeroSection = () => {
                   <p>Bekasi, Indonesia</p>
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row items-center">
-                {socialIcons.map((value, index) => {
-                  return (
-                    <Link href={value?.href} key={index} className="w-fit p-2.5 border border-gray-300 rounded-full">
-                      <Image src={value?.img} alt={value?.name} width={18} height={18} />
-                    </Link>
-                  )
-                })}
+              <div className="flex flex-col md:flex-row items-center gap-4">
+                <div className="flex items-center gap-2">
+                  {socialIcons.map((value, index) => {
+                    return (
+                      <Link href={value?.href} key={index} className="w-fit p-2.5 border border-gray-300 rounded-full">
+                        <Image src={value?.img} alt={value?.name} width={18} height={18} />
+                      </Link>
+                    )
+                  })}
+                </div>
+                <Button asChild className="h-auto rounded-full">
+                  <Link href="#">
+                    <span className="text-sm font-semibold">Get in touch</span>
+                  </Link>
+                </Button>
               </div>
             </div>
           </div>
