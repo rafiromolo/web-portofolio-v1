@@ -5,10 +5,6 @@ const AboutMe = () => {
   const servicesBagde = ["Web Development", "UI/UX Design", "Data Science", "Machine Learning"];
   const skillsBadge = [
     {
-      name: "React",
-      icon: "/images/icon/react-icon.svg"
-    },
-    {
       name: "Vue.js",
       icon: "/images/icon/vuejs-icon.svg"
     },
@@ -18,7 +14,7 @@ const AboutMe = () => {
     },
     {
       name: "CodeIgniter",
-      icon: "",
+      icon: "/images/icon/codeigniter-icon.svg",
     },
     {
       name: "Tailwind CSS",
@@ -34,7 +30,7 @@ const AboutMe = () => {
     },
     {
       name: "Tableau",
-      icon: ""
+      icon: "/images/icon/tableau-icon.svg"
     },
     {
       name: "Streamlit",
