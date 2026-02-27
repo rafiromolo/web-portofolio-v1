@@ -5,13 +5,13 @@ const featureWork = [
     title: "Calendar Printing Landing Page",
     description: "A landing page for calendar printing services, showcasing various calendar designs and customization options.",
     roles: ["Web Development"],
-    images: "/images/hero-section/user-img.png"
+    image: "/images/hero-section/feature-img-1.png"
   },
   {
-    title: "Calendar Printing Landing Page",
-    description: "A landing page for calendar printing services, showcasing various calendar designs and customization options.",
+    title: "MIRO Automation",
+    description: "An automation tool for MIRO, designed to streamline workflow and enhance productivity by automating repetitive tasks.",
     roles: ["Web Development"],
-    images: "/images/hero-section/user-img.png"
+    image: "/images/hero-section/feature-img-1.png"
   },
 ];
 
